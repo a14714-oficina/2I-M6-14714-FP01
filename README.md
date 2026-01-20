@@ -18,11 +18,10 @@ A aplicação permite consultar informações técnicas dos computadores e o sof
 ## 🧱 Estrutura Geral do Projeto
 O projeto está organizado em uma pasta principal contendo os seguintes arquivos:
 
-config.php: Arquivo de configuração para ligação à base de dados MySQL usando PDO.
-index.php: Página principal com listagem de computadores, filtros por sala, pesquisa por nome de computador ou software, e botão para gerar PDF.
-detalhe.php: Página de detalhes de um computador específico, mostrando características técnicas e permitindo gestão de software (adicionar, remover, editar versões).
-inventario.sql: Arquivo SQL para criação e população da base de dados, incluindo tabelas para salas, computadores, software e associações.
-fpdf.php: Biblioteca externa (FPDF) para geração de PDFs (baixada de http://www.fpdf.org/).
+- **config.php: Arquivo de configuração para ligação à base de dados MySQL usando PDO.**
+- **index.php: Página principal com listagem de computadores, filtros por sala, pesquisa por nome de computador ou software, e botão para gerar PDF.**
+- **detalhe.php: Página de detalhes de um computador específico, mostrando características técnicas e permitindo gestão de software (adicionar, remover, editar versões).**
+- **inventario.sql: Arquivo SQL para criação e população da base de dados, incluindo tabelas para salas, computadores, software e associações.**
 A base de dados relacional inclui as tabelas: salas, computadores, software e computador_software, com chaves primárias e estrangeiras apropriadas para garantir integridade.
 
 ---
