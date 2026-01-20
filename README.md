@@ -60,18 +60,18 @@ com chaves primárias e estrangeiras corretamente definidas.
 - Sugestões para queries SQL com JOIN  
 - Organização do projeto e estrutura dos ficheiros  
 - Melhoria do interface gráfico (CSS e layout)  
-- Resolução de erros técnicos (PDO e SQL)  
+- Resolução de erros técnicos 
 - Explicação de funcionalidades e partes do código  
 
 ### Como utilizei a IA
 A IA foi utilizada como ferramenta de apoio técnico:
 
-- Forneceu exemplos de código que foram posteriormente adaptados  
+- Forneceu exemplos de código  
 - Ajudou a identificar erros e respetivas correções  
 - Sugeriu melhorias visuais e estruturais  
 - Explicou conceitos utilizados no projeto  
 
-Todo o código foi revisto, adaptado e integrado manualmente.
+Todo o código foi revisto e adaptado.
 
 ---
 
