@@ -22,39 +22,35 @@ O projeto está organizado em uma pasta principal contendo os seguintes arquivos
 - **index.php: Página principal com listagem de computadores, filtros por sala, pesquisa por nome de computador ou software, e botão para gerar PDF.**
 - **detalhe.php: Página de detalhes de um computador específico, mostrando características técnicas e permitindo gestão de software (adicionar, remover, editar versões).**
 - **inventario.sql: Arquivo SQL para criação e população da base de dados, incluindo tabelas para salas, computadores, software e associações.**
-A base de dados relacional inclui as tabelas: salas, computadores, software e computador_software, com chaves primárias e estrangeiras apropriadas para garantir integridade.
+A base de dados relacional inclui as tabelas: salas, computadores, software e computador_software, com chaves primárias e estrangeiras.
 
 ---
 
 ## ⚙️ Funcionalidades Desenvolvidas
 Lista das funcionalidades que foram efetivamente implementadas no projeto:
 
-- [ ] Ligação à base de dados com PHP (PDO)
-- [ ] Listagem de computadores por sala
-- [ ] Visualização das características técnicas de cada computador
-- [ ] Consulta do software instalado
-- [ ] Página de detalhe por computador
-- [ ] Pesquisa por nome de computador
-- [ ] Pesquisa por software
-- [ ] Organização do dashboard
-- [ ] Melhorias visuais no interface (cores, layout, ícones)
-- [ ] Outras funcionalidades (especificar):
-
+- [x] Ligação à base de dados com PHP (PDO)
+- [x] Listagem de computadores por sala
+- [x] Visualização das características técnicas de cada computador
+- [x] Consulta do software instalado
+- [x] Página de detalhe por computador
+- [x] Pesquisa por nome de computador
+- [x] Pesquisa por software
+- [x] Organização do dashboard
+- [x] Melhorias visuais no interface (cores, layout, ícones)
+- [x] Outras funcionalidades: Geração de PDF com dados dos computadores, botão para limpar filtros, botão para pesquisar software e responsividade para mobile,
 ---
 
 ## 🤖 Utilização da Inteligência Artificial (IA)
 Nesta secção descrevo de forma clara como utilizei Inteligência Artificial no desenvolvimento do projeto.
 
 ### 🔹 Onde utilizei IA
-(Exemplos – apagar os que não se aplicam e acrescentar outros)
-
-- Apoio na escrita ou correção de código PHP  
-- Sugestões para queries SQL  
-- Ajuda na estruturação da base de dados  
-- Melhoria do interface gráfico (CSS / layout)  
-- Implementação da funcionalidade de pesquisa  
-- Organização do dashboard  
-- Resolução de erros ou problemas técnicos  
+- Apoio na escrita ou correção de código PHP (ex.: estrutura de queries SQL, loops para listagem de dados).
+- Sugestões para queries SQL (ex.: JOINs para pesquisa por software).
+- Melhoria do interface gráfico (CSS / layout, responsividade, ícones Font Awesome).
+- Organização do dashboard (layout de tabelas e formulários).
+- Resolução de erros ou problemas técnicos (ex.: correção de sintaxe SQL, tratamento de erros PDO).
+- Explicação das melhorias e do código implementado.
 
 ### 🔹 Como utilizei a IA
 Descrição breve do tipo de apoio recebido, por exemplo:
