@@ -18,7 +18,7 @@ A aplicação permite consultar informações técnicas dos computadores e o sof
 ## 🧱 Estrutura Geral do Projeto
 O projeto está organizado numa pasta principal contendo os seguintes ficheiros:
 
-- **config.php** – Arquivo de configuração para ligação à base de dados MySQL usando PDO.  
+- **config.php** – Arquivo de configuração para ligação à base de dados MySQL a usar PDO.  
 - **index.php** – Página principal com listagem de computadores, filtros por sala, pesquisa por nome de computador ou software e botão para gerar PDF.  
 - **detalhe.php** – Página de detalhes de um computador específico, mostrando características técnicas e permitindo a gestão de software (adicionar, remover e editar versões).  
 - **inventario.sql** – Arquivo SQL para criação e população da base de dados.
