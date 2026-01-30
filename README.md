@@ -49,7 +49,7 @@ A base de dados relacional é composta pelas seguintes tabelas, com chaves prim�
 - `salas`
 - `computadores`
 - `software`
-- `computador_software` *(tabela de ligação N:M)*
+- `computador_software` 
 
 ---
 
@@ -99,7 +99,6 @@ A Inteligência Artificial foi utilizada como **ferramenta de apoio ao desenvolv
   - AJAX
   - Estruturas relacionais
 
-> **Nota:** Todo o código sugerido pela IA foi **revisto, adaptado e validado manualmente**.
 
 ---
 
@@ -141,4 +140,4 @@ A Inteligência Artificial foi utilizada como **ferramenta de apoio ao desenvolv
 ## 🔗 Repositório GitHub
 
 🔗 **Link do projeto:**  
-[INSERIR LINK DO REPOSITÓRIO AQUI]
+[https://a14714-oficina.infinityfree.me/m6-inventario/]
